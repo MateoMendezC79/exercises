@@ -8,7 +8,7 @@ public class Main {
         pedro.llenarInformacion(modeloPedro);
         pedro.tocarPiano("Dulce");
         pedro.caminar();
-        System.out.println("Pedro tiene el pelo de color " + pedro.global.getColorPelo() + " de nombre " + pedro.global.getNombre() + " y edad " + pedro.global.getEdad());
+        System.out.println("Pedro tiene el pelo de color " + pedro.modeloPersonaglobal.getColorPelo() + " de nombre " + pedro.modeloPersonaglobal.getNombre() + " y edad " + pedro.modeloPersonaglobal.getEdad());
 
         Pepita pepita = new Pepita();
         ModeloPersona modeloPepita = new ModeloPersona();

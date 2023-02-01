@@ -1,8 +1,8 @@
 public class Persona implements AccionPersona {
 
-    ModeloPersona global;
+    ModeloPersona modeloPersonaglobal;
     public void llenarInformacion(ModeloPersona modeloLocal){
-        global = modeloLocal;
+        modeloPersonaglobal = modeloLocal;
     }
     @Override
     public void caminar() {
