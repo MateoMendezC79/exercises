@@ -7,3 +7,4 @@ public class Pepita extends Persona {
         System.out.println("caminado lento");
     }
 }
+

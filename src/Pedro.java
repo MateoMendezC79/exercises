@@ -7,3 +7,4 @@ public class Pedro extends Persona {
         System.out.println("caminado rapido");
     }
 }
+

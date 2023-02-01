@@ -19,3 +19,4 @@ public class Persona implements AccionPersona {
         System.out.println("grito ruidoso");
     }
 }
+
