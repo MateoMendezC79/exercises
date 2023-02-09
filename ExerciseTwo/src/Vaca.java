@@ -20,4 +20,8 @@ public class Vaca extends Mamifero implements Muerte {
     public String reencarnar(String informacionReencarnar) {
         return informacionReencarnar + "tu puedes hacerlo";
     }
+    public Vaca(){
+        ModeloAnimal modeloVaca = new ModeloAnimal("carolina",5,"mamifero");
+        informacionAnimal(modeloVaca);
+    }
 }

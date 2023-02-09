@@ -14,5 +14,13 @@ public class Colibri extends Ave implements Muerte{
     public String reencarnar(String informacionReencarnar) {
         return informacionReencarnar;
     }
+
+    public Colibri(){
+        ModeloAnimal modeloColibri = new ModeloAnimal("Andres",12,"ave");
+        informacionAnimal(modeloColibri);
+    }
+    public Colibri(ModeloAnimal modeloColibri){
+        informacionAnimal(modeloColibri);
+    }
 }
 
