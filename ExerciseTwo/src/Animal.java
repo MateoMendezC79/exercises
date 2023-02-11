@@ -10,7 +10,7 @@ public class Animal {
         System.out.println("Usa sus aletas para moverse en agua");
     }
     public void dentadura(){
-        System.out.println("dientes muy pequeños");
+        System.out.println("dientes muy pequeños    ");
     }
     public void color(){
         System.out.println("De color verde oscuro");
