@@ -5,7 +5,6 @@ public class Main {
         colibri.reencarnar("por medio de jesus");
         colibri.dentadura();
         colibri.tipoDePico("nectarivoro");
-
         Vaca vaca = new Vaca();
         vaca.morir(2006,2023,"paro cardiaco");
         vaca.reencarnar("en un ritual");
