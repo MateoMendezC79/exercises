@@ -1,7 +1,7 @@
 public class Vaca extends Mamifero implements Muerte {
     @Override
-    public void peso() {
-        System.out.println("Peso muy alto");
+    public void sonido() {
+        System.out.println("hace muu");
     }
 
     @Override
@@ -21,7 +21,12 @@ public class Vaca extends Mamifero implements Muerte {
         return informacionReencarnar + "tu puedes hacerlo";
     }
     public Vaca(){
-        ModeloAnimal modeloVaca = new ModeloAnimal("carolina",5,"mamifero");
+        ModeloAnimal modeloVaca = new ModeloAnimal();
+        modeloVaca.setNombre("andres");
+        modeloVaca.setTipoAnimal("mamifero");
+        modeloVaca.setAltura(125);
+        modeloVaca.setEdad(16);
+        modeloVaca.setColor("blanca");
         informacionAnimal(modeloVaca);
     }
 }

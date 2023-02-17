@@ -16,7 +16,12 @@ public class Colibri extends Ave implements Muerte{
         return informacionReencarnar;
     }
     public Colibri(){
-        ModeloAnimal modeloColibri = new ModeloAnimal("Andres",12,"ave");
+        ModeloAnimal modeloColibri = new ModeloAnimal();
+        modeloColibri.setNombre("camilo");
+        modeloColibri.setTipoAnimal("ave");
+        modeloColibri.setAltura(16);
+        modeloColibri.setEdad(4);
+        modeloColibri.setColor("azul");
         informacionAnimal(modeloColibri);
     }
     public Colibri(ModeloAnimal modeloColibri){
