@@ -1,5 +1,5 @@
 public class Mamifero extends Animal {
-    public void pelaje(){
-        System.out.println("Pelaje largo y denso");
+    public void sonido(){
+        System.out.println("maulla muy fuerte");
     }
 }

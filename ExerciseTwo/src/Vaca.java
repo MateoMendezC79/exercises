@@ -1,7 +1,7 @@
 public class Vaca extends Mamifero implements Muerte {
     @Override
-    public void pelaje() {
-        System.out.println("Pelaje muy corto y denso");
+    public void peso() {
+        System.out.println("Peso muy alto");
     }
 
     @Override

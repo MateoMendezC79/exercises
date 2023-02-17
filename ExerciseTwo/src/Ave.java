@@ -1,7 +1,7 @@
 public class Ave extends Animal{
     @Override
-    public void color() {
-        System.out.println("De color clanco y amarillo");
+    public void desplazamiento() {
+        System.out.println("vuela");
     }
-    public String tipoDePico(String pico){ return "La forma del pico del ave es "+ pico;}
+    public String tipoAtaque(String ataque){ return "para hacer daño el animal "+ ataque;}
 }

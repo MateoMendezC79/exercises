@@ -1,7 +1,10 @@
 public class Colibri extends Ave implements Muerte{
     @Override
     public void audicion() {
-        System.out.println("no tienen orejas pero escuchan tonos de alto rango");;
+        System.out.println("escucha muy poco");;
+    }
+    public void alimento(){
+        System.out.println("come frutas");
     }
     @Override
     public String morir(int fechaNacimiento, int fechaFallecimiento, String causaMuerte) {
